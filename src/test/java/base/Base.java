@@ -74,8 +74,7 @@ public class Base {
         Actions act = new Actions(driver);
         act.moveToElement(element).build().perform();
         act.contextClick();
-        // new line added
-        System.out.println(element);
+
 
     }
     public static void screenShotName(WebDriver driver, String name) throws IOException {
